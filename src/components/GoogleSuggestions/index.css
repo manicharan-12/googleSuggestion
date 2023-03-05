@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+}
+.main-container {
+  width: 30%;
+  height: 40%;
+}
+img {
+  width: 100%;
+}
+
+.main-section {
+  width: 50%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 12px;
+  padding: 8px;
+  margin-top: 24px;
+  padding-right: 20px;
+  height: 60%;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-image {
+  height: 30px;
+  width: 30px;
+}
+
+.input-container {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding-left: 12px;
+  font-family: 'Roboto';
+}
+.input-container:hover {
+  border: none;
+}

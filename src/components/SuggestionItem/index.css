@@ -1,0 +1,23 @@
+/* Write your CSS here */
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.arrow-image {
+  height: 30px;
+  width: 30px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  height: 0px;
+  width: 0px;
+  margin-right: 12px;
+}
+button:hover {
+  border: none;
+}
